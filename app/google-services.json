@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655932685497",
+    "firebase_url": "https://basicform-32394.firebaseio.com",
+    "project_id": "basicform-32394",
+    "storage_bucket": "basicform-32394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655932685497:android:c60e088e07e72a4a",
+        "android_client_info": {
+          "package_name": "com.kogicodes.basicform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655932685497-5luiflecl522qo4ou57mqp0kcnl5uu4j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kogicodes.basicform",
+            "certificate_hash": "61fc2a678f55095480a6a9201ef04d42cf7b73ac"
+          }
+        },
+        {
+          "client_id": "655932685497-pfbf28atnjkr2upq7hccj24fp85jonj3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp3dTEeAfVuSWyvRSWXUONHIh1SUJAoRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655932685497-pfbf28atnjkr2upq7hccj24fp85jonj3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

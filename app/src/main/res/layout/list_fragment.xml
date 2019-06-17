@@ -1,0 +1,49 @@
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/white"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_marginTop="20dp"
+                  android:orientation="vertical"
+                  android:layout_height="match_parent">
+
+        <TextView android:layout_width="match_parent"
+                  android:textSize="20sp"
+                  android:padding="3dp"
+                  android:layout_marginStart="4dp"
+                  android:textStyle="bold"
+                  android:text="List"
+                  android:layout_height="wrap_content"/>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:id="@+id/recyclerview"
+                android:layout_height="match_parent">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+    </LinearLayout>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="16dp"
+            android:visibility="visible"
+
+            android:id="@+id/fab_add_listings"
+            android:layout_alignParentEnd="true"
+            android:src="@android:drawable/ic_input_add"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicForm</string>
+    <string name="first">First</string>
+    <string name="last">Last</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="take_photo">Take photo</string>
+
+
+</resources>
